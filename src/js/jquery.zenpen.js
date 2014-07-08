@@ -97,7 +97,7 @@
 				var selection = getSelection();
 				var selectedText = selection.toString();
 				
-				console.log(t, selection.isCollapsed, selectedText, selection);
+				//console.log(t, selection.isCollapsed, selectedText, selection);
 		
 				if ( t.is('input, textarea, button, *[contenteditable="true"]') ) {
 		
